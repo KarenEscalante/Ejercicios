@@ -16,147 +16,111 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       
         //ejemplo 1
         
         var nombre1="maría";
         var nombre2="paula";
         var union=nombre1 + " " + nombre2;
-        System.out.println("union=" +union);
+               System.out.println("union=" +union);
         
-        //ejemplo2
         
-        int a=2;
+        int i=2;
         int e=3;
         
-                System.out.println(a+e);
-                System.out.println(a+e+union);
-                System.out.println(union+a+e);
-                System.out.println(union+(a+e));
-                        
-        //ejemplo 3
-        
+                System.out.println(i+e);
+                System.out.println(i+e+union);
+                System.out.println(union+i+e);
+                System.out.println(union+(i+e));
+                
+    //ejemplo 2
+    
         int numero1=8;
         int numero2=numero1;
-        System.out.println("la variable numero 1 vale: " +numero1);
-        System.out.println("La variable numero 2 vale: " +numero2);
-        
-        
-        //ejemplo4
-        
+                System.out.println("la variable numero 1 vale: " +numero1);
+                System.out.println("La variable numero 2 vale: " +numero2);
+    
+    //ejemplo 3
+    
         long numer1=8;
         int numer2=13;
         long resta= numer1-numer2;
-        System.out.println("el resultado de la resta1 es: " +resta);
+                System.out.println("el resultado de la resta1 es: " +resta);
         
         
-        //ejemplo 5
         
+    //ejemplo 4
+    
         int nmro1=3;
         int nmro2=52;
         int suma = nmro1+nmro2;
-        System.out.println("El resultado de la suma1 es: " +suma);
-        
-        
-        //ejemplo 6
-        
+                System.out.println("El resultado de la suma1 es: " +suma);    
+                
+           
+    //ejemplo 5
+    
         double número1= 7.6;
         int número2= 4;
         double multiplicacion = número1*número2;
-        System.out.println("El resultado de la multiplicacion1 es: " +multiplicacion);
+                System.out.println("El resultado de la multiplicacion1 es: " +multiplicacion);
         
         
         
-        //ejemplo7
-        
+    //ejemplo 6
+    
         float nume1 =2.3F;
         int nume2 =5;
         float division = nume1/nume2;
-                System.out.println("El resultado de la division1 es: " +division);
-                
-                
-                
-         //ejemplo 8
-         
-        int c = 5;
-        int d = ++c;
-        System.out.println(c); 
-        System.out.println(d); 
-                
-        
-
-        //ejemplo 9
-        
-        int f = 5;
-        int g = c++;
-        System.out.println(f);
-        System.out.println(g) ; 
-        
-          
-        //ejemplo 10
-        
+                System.out.println("El resultado de la division1 es: " +division);    
+                            
+     
+     
+    //ejemplo 7
+    
+        int s = 5;
+        int m = ++s; 
+             System.out.println(s); 
+             System.out.println(m); 
+               
+        int g = 5;
+        int f = g++;
+             System.out.println(g);
+             System.out.println(f); 
+             
         int h = 5;
-        int i = --h;
-        System.out.println(h);
-        System.out.println(i);
-        
-        
-        
-        //ejemplo11
-        
+        int o = --h;
+            System.out.println(h);
+            System.out.println(o);     
+            
+         
         int j = 5;
         int k = j--;
-        System.out.println(j);
-        System.out.println(k);
+             System.out.println(j);
+             System.out.println(k);
         
-        
-        //ejemplo12
-        
-        int l= 5;
-        int n = 2;
-        n += l;
-        System.out.println(n);
-        
-        
-        
-        //ejemplo13
-        
-        int m=5;
-        int o=2;
-        o -= m;
-        System.out.println(o);
-        
-        
-        
-        
-        //ejemplo 14
-        
-        int p = 5;
-        int q = 2;
-        q *= p;
-        System.out.println(q);
-        
-        
-        
-        //ejemplo15
-        
-        int r =5;
-        double s = 2.0;
-        s /= r ;
-        System.out.println(s);
-        
-        
-        
-        //ejemplo16
-        
-        int t= 5;
-        int u = 2;
-        u %= t;
-        System.out.println(u);
-        
-                
-                
+          
+             
+             
+     //ejemplo 8        
+    
+        int a =5;
+        int b = 2;
      
-        //ejemplo17
+        b += a;
+           System.out.println(b);
+     
+        b -= a;
+           System.out.println(b);
+     
+        b *= a;
+           System.out.println(b);
+    
+        double d = 2.0;
+        d /= a;
+           System.out.println(d);
+            
+           
+         //ejemplo9
         int N = 5;
         double A = 4.56;
         char C = 'a';
@@ -169,7 +133,7 @@ public class Ejercicio1 {
        
         
  
-        //ejemplo18
+        //ejemplo10
         int numero3= 12;
         int numero4 = 2;
         
@@ -192,16 +156,8 @@ public class Ejercicio1 {
         System.out.println("El resultado de la multiplicacion es: " + multiplica);
         modulo = numero3 % numero4;
         System.out.println("El resultado del modulo es: " + modulo);
-              
-                
-              
-         
-        
-                
-                        
-                
-                
-                
+                 
+      
                         
                         
         
