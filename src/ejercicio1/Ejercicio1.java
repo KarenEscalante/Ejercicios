@@ -16,11 +16,14 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //ejemplo 1
+        
         var nombre1="maría";
         var nombre2="paula";
         var union=nombre1 + " " + nombre2;
         System.out.println("union=" +union);
         
+        //ejemplo2
         
         int a=2;
         int e=3;
@@ -30,6 +33,7 @@ public class Ejercicio1 {
                 System.out.println(union+a+e);
                 System.out.println(union+(a+e));
                         
+        //ejemplo 3
         
         int numero1=8;
         int numero2=numero1;
@@ -37,6 +41,7 @@ public class Ejercicio1 {
         System.out.println("La variable numero 2 vale: " +numero2);
         
         
+        //ejemplo4
         
         long numer1=8;
         int numer2=13;
@@ -44,11 +49,15 @@ public class Ejercicio1 {
         System.out.println("el resultado de la resta1 es: " +resta);
         
         
+        //ejemplo 5
+        
         int nmro1=3;
         int nmro2=52;
         int suma = nmro1+nmro2;
         System.out.println("El resultado de la suma1 es: " +suma);
         
+        
+        //ejemplo 6
         
         double número1= 7.6;
         int número2= 4;
@@ -57,6 +66,8 @@ public class Ejercicio1 {
         
         
         
+        //ejemplo7
+        
         float nume1 =2.3F;
         int nume2 =5;
         float division = nume1/nume2;
@@ -64,7 +75,8 @@ public class Ejercicio1 {
                 
                 
                 
-               
+         //ejemplo 8
+         
         int c = 5;
         int d = ++c;
         System.out.println(c); 
@@ -72,12 +84,15 @@ public class Ejercicio1 {
                 
         
 
+        //ejemplo 9
+        
         int f = 5;
         int g = c++;
         System.out.println(f);
         System.out.println(g) ; 
         
           
+        //ejemplo 10
         
         int h = 5;
         int i = --h;
@@ -86,12 +101,15 @@ public class Ejercicio1 {
         
         
         
+        //ejemplo11
+        
         int j = 5;
         int k = j--;
         System.out.println(j);
         System.out.println(k);
         
         
+        //ejemplo12
         
         int l= 5;
         int n = 2;
@@ -100,12 +118,17 @@ public class Ejercicio1 {
         
         
         
+        //ejemplo13
+        
         int m=5;
         int o=2;
         o -= m;
         System.out.println(o);
         
         
+        
+        
+        //ejemplo 14
         
         int p = 5;
         int q = 2;
@@ -114,12 +137,16 @@ public class Ejercicio1 {
         
         
         
+        //ejemplo15
+        
         int r =5;
         double s = 2.0;
         s /= r ;
         System.out.println(s);
         
         
+        
+        //ejemplo16
         
         int t= 5;
         int u = 2;
@@ -129,7 +156,8 @@ public class Ejercicio1 {
                 
                 
      
-          int N = 5;
+        //ejemplo17
+        int N = 5;
         double A = 4.56;
         char C = 'a';
         
@@ -141,6 +169,7 @@ public class Ejercicio1 {
        
         
  
+        //ejemplo18
         int numero3= 12;
         int numero4 = 2;
         
